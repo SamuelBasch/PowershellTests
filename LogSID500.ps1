@@ -14,3 +14,5 @@ foreach ($server in $servers) {
         $output | Export-Csv -Path "C:\temp\output.csv" -NoTypeInformation -Append
     }
 }
+
+#need to specify only SID 500
